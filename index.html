@@ -1,124 +1,131 @@
 <!DOCTYPE html>
 <html lang=”en-US”>
-    <head>
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
-            <title>Journal</title>
-    </head>
-    <body>
-        <h1>My Journal</h1>
-        <header>
-                <h2>All entries</h2>
-            <nav>
-                <ul>
-                    <li> <a href='#Friday9th'>Friday, April 9th</a></li>
-                    <li> <a href='#Saturday10th'>Saturday, April 10th</a></li>
-                    <li> <a href='#Sunday11th'>Sunday, April 11th</a></li>
-                </ul>
-            </nav>
-        </header>
-        <main>
-            <section>
-                <h3>Friday, April 9th</h3>
-                <p>Today was a slowpaced day.<br> 
-                    My statistic class was cancelled and professor posted a video instead.
-                    I like watching video lectures because I can pause whenever I get distracted and rewatch it. After watching a video I attended Humanities lecture. 
-                    We read a rather complicated poem that I couldn't understand before the lecture. However, after the lecture, it was more clear to me. 
-                    I also finished some homework assignments:
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <title>Journal</title>
+</head>
+
+<body>
+    <h1>My Journal</h1>
+    <header>
+        <h2>All entries</h2>
+        <nav>
+            <ul>
+                <li> <a href='#Friday9th'>Friday, April 9th</a></li>
+                <li> <a href='#Saturday10th'>Saturday, April 10th</a></li>
+                <li> <a href='#Sunday11th'>Sunday, April 11th</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h3>Friday, April 9th</h3>
+            <p>Today was a slowpaced day.<br>
+                My statistic class was cancelled and professor posted a video instead.
+                I like watching video lectures because I can pause whenever I get distracted and rewatch it. After
+                watching a video I attended Humanities lecture.
+                We read a rather complicated poem that I couldn't understand before the lecture. However, after the
+                lecture, it was more clear to me.
+                I also finished some homework assignments:
+                <div>
+                    <ol>
+                        <li>Online homework for <b class="class">MATH 183</b></li>
+                        <li>Reflection for <b class="class">ENG 100D</b></li>
+                        <li>Reading for <b class="class">HUM 5</b></li>
+                    </ol>
+                </div>
+                <p>Later in the evening my roommate came from her shift and we watched a movie together.</p>
+                <hr>
+                <p>My favorite video of the day:</p>
+                <video controls src="videos/v07044g50000c1j8rl9m4gv3f889neag.MP4" width="360"></video>
+        </section>
+        <section>
+            <h3>Saturday, April 10th</h3>
+            <p>Today I had a multiple meetings on <span>zoom</span></p>
+            <hr>
+            <p>There's birds outside my window so I wake up to this sound everyday</p>
+            <audio controls src="/sounds/mixkit-little-birds-singing-in-the-trees-17.wav">Your browser does not support
+                the
+                <code>audio</code> element.
+            </audio>
+            <hr>
+            <p>First, our club participated in Virtual Triton Day. It was nice to see many transfer students being
+                interested in our club.
+                After that, I had a meeting with my mentee and we talked about different project ideas. And finally I
+                met with my team for
+                <b class="class">CSE 110</b> class and we played some skribble.io and got to know each other. I'm
+                looking forward to working with them on the project this quarter! </p>
+            In the evening, my friend, who is also fully vaccinated, came over so we studied together and played on
+            Switch afterwards.
+        </section>
+        <section>
+            <h3>Sunday, April 11th</h3>
+            <p>Today I woke up a little bit later than usual and made a <em>really</em> good coffee. I thought to myself
+                <i> I only have to do my lab today, it should be quick</i>
+                As I'm doing this lab assignment I should note to myself: <strong>Don't leave this until last
+                    day</strong></p>
+            <hr>
+            <details>
+                <summary>What is this thing?</summary>
+                This is my coffee dripper
+            </details>
+            <img class="fit-picture" src="/img/download.jpeg" alt="Coffee dripper">
+        </section>
+    </main>
+    <footer>
+        <h2>Add New Entry:</h2>
+        <form method="post">
+            <fieldset>
+                <div>
+                    <label>Date:
+                        <input type="date" value="2021-04-12" min="2021-01-01" max="2021-12-31">
+                    </label>
+                </div>
+                <br>
+                <div>
+                    <textarea id="text" name="text" rows="5" cols="33"> Today was ...</textarea>
+                </div>
+                <fieldset>
+                    <legend>Additional attributes</legend>
+                    <label for="title">Title:</label>
+                    <input type="text" id="title" name="title"><br>
+                    <label>Choose either: <input type="radio" name="radio-image"> Image</label>
+                    <label><input type="radio" name="radio-video"> Video</label>
+                    <p>Choose more features:</p>
                     <div>
-                        <ol>
-                            <li>Online homework for <b class="class">MATH 183</b></li>
-                            <li>Reflection for <b class="class">ENG 100D</b></li>
-                            <li>Reading for <b class="class">HUM 5</b></li>
-                        </ol>
+                        <input type="checkbox" id="audio" name="audio" checked>
+                        <label for="audio">Audio</label>
                     </div>
-                    <p>Later in the evening my roommate came from her shift and we watched a movie together.</p>
-                   <hr>
-                    <p>My favorite video of the day:</p>
-                    <video controls
-                            src="videos/v07044g50000c1j8rl9m4gv3f889neag.MP4"
-                            width="360"></video>
-            </section>
-            <section>
-                <h3>Saturday, April 10th</h3>
-                <p>Today I had a multiple meetings on <span>zoom</span></p>
-                <hr>
-                <p>There's birds outside my window so I wake up to this sound everyday</p>
-                <audio controls src="/sounds/mixkit-little-birds-singing-in-the-trees-17.wav">Your browser does not support the
-                    <code>audio</code> element.
-                </audio>
-                <hr>
-                    <p>First, our club participated in Virtual Triton Day. It was nice to see many transfer students being interested in our club. 
-                        After that, I had a meeting with my mentee and we talked about different project ideas. And finally I met with my team for 
-                        <b class="class">CSE 110</b> class and we played some skribble.io and got to know each other. I'm looking forward to working with them on the project this quarter! </p>
-                In the evening, my friend, who is also fully vaccinated, came over so we studied together and played on Switch afterwards.
-            </section>
-            <section>
-                <h3>Sunday, April 11th</h3>
-                <p>Today I woke up a little bit later than usual and made a <em>really</em> good coffee. I thought to myself <i> I only have to do my lab today, it should be quick</i>
-                As I'm doing this lab assignment I should note to myself: <strong>Don't leave this until last day</strong></p>
-                <hr>
-                <details>
-                        <summary>What is this thing?</summary>
-                        This is my coffee dripper
-                </details>
-                <img class="fit-picture"
-                src="/img/download.jpeg"
-                alt="Coffee dripper">
-            </section>
-        </main>
-        <footer>
-            <h2>Add New Entry:</h2>
-                <form method="post">
-                     <fieldset>
-                        <div>
-                            <label>Date:
-                                <input type="date" value="2021-04-12"
-                                min="2021-01-01" max="2021-12-31">
-                            </label>
-                        </div>
-                        <br>
-                        <div>
-                            <textarea id="text" name="text" rows="5" cols="33"> Today was ...</textarea>
-                        </div>
-                        <fieldset>
-                          <legend>Additional attributes</legend>
-                          <label for="title">Title:</label>
-                            <input type="text" id="title" name="title"><br>
-                          <label>Choose either: <input type="radio" name="radio-image"> Image</label>
-                          <label><input type="radio" name="radio-video"> Video</label>
-                          <p>Choose more features:</p>
-                            <div>
-                            <input type="checkbox" id="audio" name="audio"checked>
-                            <label for="audio">Audio</label>
-                            </div>
-                            <div>
-                            <input type="checkbox" id="list" name="list">
-                            <label for="list">List</label>
-                            </div>
-                            <label for="mood-list">Choose a mood:</label>
-                            <input list="moods" id="mood-list" name="mood-list" />
+                    <div>
+                        <input type="checkbox" id="list" name="list">
+                        <label for="list">List</label>
+                    </div>
+                    <label for="mood-list">Choose a mood:</label>
+                    <input list="moods" id="mood-list" name="mood-list" />
 
-                            <datalist id="moods">
-                                <option value="Happy">
-                                <option value="Sad">
-                                <option value="Excited">
-                                <option value="Angry">
-                                <option value="Tired">
-                            </datalist><br>
-                            <label for="socialmedia-select">Choose Social Media to share:</label>
+                    <datalist id="moods">
+                        <option value="Happy">
+                        <option value="Sad">
+                        <option value="Excited">
+                        <option value="Angry">
+                        <option value="Tired">
+                    </datalist><br>
+                    <label for="socialmedia-select">Choose Social Media to share:</label>
 
-                            <select name="socials" id="socialmedia-select">
-                                <option value="">--Please choose a social media--</option>
-                                <option value="facebook">Facebook</option>
-                                <option value="instagram">Instagram</option>
-                                <option value="snapchat">Snapchat</option>
-                            </select>
-                        </fieldset>
-                        <button>Save</button>
-                    </fieldset>
-                      </form>
-        </footer>
-    </body>
+                    <select name="socials" id="socialmedia-select">
+                        <option value="">--Please choose a social media--</option>
+                        <option value="facebook">Facebook</option>
+                        <option value="instagram">Instagram</option>
+                        <option value="snapchat">Snapchat</option>
+                    </select>
+                </fieldset>
+                <button>Save</button>
+            </fieldset>
+        </form>
+    </footer>
+</body>
+
 </html>
