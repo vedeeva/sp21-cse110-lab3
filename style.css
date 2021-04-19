@@ -1,24 +1,24 @@
+/* CSS style*/
 body {
     background-color: lightblue;
     font-family: 'Orelega One';
   }
-  
-  h1 {
+  /* headers*/
+  h1, h2{
     color: #24319E;
     margin-top: 1vh;
     margin-left: 1cm;
+    text-decoration: underline;
   }
-  h2 {
-    font-family: 'Orelega One';
-    margin-top: 1vh;
-    margin-left: 1cm;
-  }
+  
   h3{
       font-family: Georgia, 'Times New Roman', Times, serif;
   }
+  /* paragraphs*/
   p{
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin: auto;
+    text-align: left;
   }
   ul{
       background-color: hsl(203, 44%, 50%);
@@ -30,6 +30,10 @@ body {
       padding-bottom: 25px;
       padding-left: 3rem;
       padding-right: 3rem;
+      display: grid;
+      grid-template-columns: 50px 50px 50px;
+      grid-template-rows: 40px auto 40px; 
+      gap: 5px 100px;
   }
   section {
       margin: 1cm 1cm 1cm 1cm;
@@ -42,3 +46,24 @@ body {
   form{
       background-color: rgb(96, 102, 128);
   }
+  
+  .entry3 {
+      display: flex;
+      flex-flow: column wrap;
+      align-content: space-between;
+      justify-content: flex-start;
+  }
+  summary {
+      display:none;
+  }
+  fieldset {
+      display: block;
+  }
+  button:hover {
+    color: blue;
+  }
+  a:active {
+    color: red;
+  }
+  
+  @media (min-height: 300px), screen and (orientation: portrait){}
