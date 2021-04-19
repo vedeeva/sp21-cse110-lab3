@@ -1,0 +1,23 @@
+body {
+    background-color: lightblue;
+    font-family: 'Orelega One';
+  }
+  
+  h1 {
+    color: #24319E;
+  }
+  h2 {
+    font-family: 'Orelega One';
+  }
+  h3{
+      font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  ul{
+      background-color: hsl(203, 44%, 50%)
+  }
+  form{
+      background-color: rgb(96, 102, 128);
+  }
