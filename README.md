@@ -1,1 +1,1 @@
-https://vedeeva.github.io/Lab2
+https://vedeeva.github.io/sp21-cse110-lab3/
