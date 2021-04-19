@@ -5,18 +5,39 @@ body {
   
   h1 {
     color: #24319E;
+    margin-top: 1vh;
+    margin-left: 1cm;
   }
   h2 {
     font-family: 'Orelega One';
+    margin-top: 1vh;
+    margin-left: 1cm;
   }
   h3{
       font-family: Georgia, 'Times New Roman', Times, serif;
   }
   p{
     font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: auto;
   }
   ul{
-      background-color: hsl(203, 44%, 50%)
+      background-color: hsl(203, 44%, 50%);
+      margin-top: 1cm;
+      margin-bottom: 1cm;
+      margin-left: 6mm;
+      margin-right: 40vw;
+      padding-top: 25px;
+      padding-bottom: 25px;
+      padding-left: 3rem;
+      padding-right: 3rem;
+  }
+  section {
+      margin: 1cm 1cm 1cm 1cm;
+      padding: 3em 1em 1em 1em;
+      border-width: 0.8px;
+      border-style: solid;
+      border-color: midnightblue;
+      border-radius: 10px;
   }
   form{
       background-color: rgb(96, 102, 128);
