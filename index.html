@@ -9,6 +9,13 @@
 <link href="https://fonts.googleapis.com/css2?family=Orelega+One&display=swap" rel="stylesheet">
     <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
     <title>Journal</title>
+    <style>
+            video {
+              max-width: 200px;
+              max-height: 400px;
+              position: relative;
+            }
+    </style>
 </head>
 
 <body>
@@ -23,7 +30,7 @@
             </ul>
         </nav>
     </header>
-    <main>
+    <main class="main">
         <section>
             <h3>Friday, April 9th</h3>
             <p>Today was a slowpaced day.<br>
@@ -33,6 +40,7 @@
                 We read a rather complicated poem that I couldn't understand before the lecture. However, after the
                 lecture, it was more clear to me.
                 I also finished some homework assignments:
+            </p>
                 <div>
                     <ol>
                         <li>Online homework for <b class="class">MATH 183</b></li>
@@ -40,12 +48,14 @@
                         <li>Reading for <b class="class">HUM 5</b></li>
                     </ol>
                 </div>
+            <div>
                 <p>Later in the evening my roommate came from her shift and we watched a movie together.</p>
                 <hr>
                 <p>My favorite video of the day:</p>
                 <video controls src="videos/v07044g50000c1j8rl9m4gv3f889neag.MP4" width="360"></video>
+            </div>
         </section>
-        <section>
+        <section class="entry2">
             <h3>Saturday, April 10th</h3>
             <p>Today I had a multiple meetings on <span>zoom</span></p>
             <hr>
@@ -64,7 +74,7 @@
             In the evening, my friend, who is also fully vaccinated, came over so we studied together and played on
             Switch afterwards.
         </section>
-        <section>
+        <section class="entry3">
             <h3>Sunday, April 11th</h3>
             <p>Today I woke up a little bit later than usual and made a <em>really</em> good coffee. I thought to myself
                 <i> I only have to do my lab today, it should be quick</i>
@@ -75,7 +85,10 @@
                 <summary>What is this thing?</summary>
                 This is my coffee dripper
             </details>
-            <img class="fit-picture" src="/img/download.jpeg" alt="Coffee dripper">
+            <div class="images">
+                <img class="fit-picture" style="height: 250px; width: 250px; position: static"src="/img/download.jpeg" alt="Coffee dripper">
+                
+            </div>
         </section>
     </main>
     <footer>
